@@ -1,0 +1,25 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    Quoted Stock
+{% endblock %}
+
+{% block main %}
+    <table class="table tablestriped">
+        <thead>
+            <tr>
+                <th class="text-start"><h3>Company</h3></th>
+                <th class="text-start"><h3>Symbol</h3></th>
+                <th class="text-end"><h3>Price</h3></th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td class="text-start">{{ stock["name"] }}</td>
+                <td class="text-start">{{ stock["symbol"] }}</td>
+                <td class="text-end">{{ stock["price"] | usd }}</td>
+            </tr>
+        </tbody>
+    </table>
+{% endblock %}
+

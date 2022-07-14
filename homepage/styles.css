@@ -1,0 +1,30 @@
+
+#name
+{
+    font-family: monspace;
+    font-size: 50px;
+    text-emphasis: underline;
+    color: olive;
+    opacity: 0.5;
+}
+
+.about
+{
+    font-family: Helvetica, sans-serif;
+}
+
+h1
+{
+    color: blue
+
+}
+
+li: hover
+{
+    color:green;
+}
+
+h4.about
+{
+    color: orange;
+}
